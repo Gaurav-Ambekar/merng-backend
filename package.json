@@ -5,9 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "backend": "nodemon server.js",
-    "frontend": "npm start --prefix ..\\frontend",
-    "dev": "concurrently \"npm run backend\" \"npm run frontend\""
+    "backend": "node server.js"
   },
   "author": "Gaurav Ambekar",
   "license": "MIT",
